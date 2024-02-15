@@ -97,6 +97,9 @@ document.addEventListener("DOMContentLoaded", function() {
             } else if (event.target.id === "option6" || event.target.id === "option8" || event.target.id === "option10" || event.target.id === "option11" || event.target.id === "option13") {
                 // Display "You died" message
                 document.getElementById("game-screen").innerHTML = "<h1 style='color: red;'>You died</h1>";
+              document.body.style.backgroundImage = "url(https://i.ytimg.com/vi/1ValqnZLS00/maxresdefault.jpg)";
+            
+
             } else if (event.target.id === "option7") {
                 // Clear the game screen
                 document.getElementById("game-screen").innerHTML = "";
